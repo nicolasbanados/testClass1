@@ -14,12 +14,21 @@ body {
     padding: 20px;
 }
 
+.cards-container {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
 .card {
     background-color: #f2f1ed;
     border-radius: 12px;
     padding: 40px 32px;
-    width: 100%;
-    max-width: 320px;
+    width: 320px;
+    flex-shrink: 0;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
